@@ -9,7 +9,30 @@
 </head>
 <body>
     <div class="container">
-        
+        <h1>Rock Paper Scissors Game</h1>
+        <p>Pick your move</p>
+        <div class="scoreboard">
+            <div class="score-box">
+                <div class="label">You</div>
+                <div class="value" id="player-score">0</div>
+            </div>
+
+            <div class="score-box">
+                <div class="label">AI</div>
+                <div class="value" id="AI-score">0</div>
+            </div>
+        </div>
+        <div class="choices">
+            <button class="move" data-move="Rock">Rock</button>
+            <button class="move" data-move="Paper">Paper</button>
+            <button class="move" data-move="Scissors">Scissors</button>
+        </div>
+        <div class="result" id="result">
+            <p>Chose your move to start</p>
+        </div>
+        <div class="reset-box">
+            <button class="reset" id="reset">Reset score</button>
+        </div>
     </div>
 </body>
 </html>
