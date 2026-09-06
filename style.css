@@ -85,15 +85,14 @@ h1 {
     border-radius: 10px;
     padding: 16px 8px;
     font-size: 20px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
 .move:hover{
-
+    border-color: #4f6a4a;
+    transform: translateY(-0.5px);
 }
 
-.move::after {
-
-}
 
 .result {
     background-color: #e2d9c2;
