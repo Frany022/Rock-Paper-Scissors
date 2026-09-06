@@ -87,6 +87,14 @@ h1 {
     font-size: 20px;
 }
 
+.move:hover{
+
+}
+
+.move::after {
+
+}
+
 .result {
     background-color: #e2d9c2;
     padding: 20px 20px 20px 20px;
@@ -97,7 +105,7 @@ h1 {
     font-size: 18px;
 }
 
-.reset {
+.reset-button {
   width: 100%;
   margin-top: 20px;
   background-color: #20241f;
